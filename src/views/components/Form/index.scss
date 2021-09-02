@@ -1,0 +1,60 @@
+input.invalid {
+    border-color: red !important;
+}
+  
+.error-message {
+    font-size: 14px;
+    padding: 2px;
+    color: red;
+}
+
+.required-star {
+    color: red;
+}
+
+.custom-file {
+    .clear-input {
+        background-color: transparent;
+        border: none;
+        color: #495057;
+        position: absolute;
+        top: 50%;
+        right: 18%;
+        transform: translateY(-50%);
+        z-index: 10;
+    }
+    .custom-file-label {
+        padding-right: 40%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+.chosen-file {
+    display: flex;
+    color: #495057;
+    align-items: center;
+    //justify-content: ;
+    padding: 0 6px;
+
+    .file-link {
+        display: block;
+        max-width: 80% !important;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        //padding: 4px;
+        color: inherit;
+        margin-left: 4px;
+    }
+    .remove-file {
+        z-index: 10;
+        padding: 4px;
+        color: inherit;
+        border: none;
+        background-color: white;
+        &:before {
+            content: '\f00d';
+            font-family: FontAwesome;
+        }
+    }
+}

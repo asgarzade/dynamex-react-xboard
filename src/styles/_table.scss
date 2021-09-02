@@ -1,0 +1,70 @@
+.tabular {
+    td {
+        vertical-align: middle !important;
+    }
+
+    tr.checked {
+        background-color: #ece6b0 !important;
+    }
+}
+
+//.addlink, .changelink, .deletelink {
+//    &:before {
+//        margin-right: 2px;
+//        color: inherit !important;
+//    }
+//}
+
+.viewlink, .paylink, .donelink, .pluslink, .minuslink, .commentlink, .operatorlink, .queuelink, .change-link, .delete-link {
+    &:before {
+        color: inherit;
+        font-family: FontAwesome;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: auto;
+        display: block;
+        float: left;
+        min-width: 1.2rem;
+        margin-right: 2px;
+    }
+}
+
+.delete-link:before {
+    content: '\f1f8';
+}
+.change-link:before {
+    content: '\f040';
+}
+.viewlink:before {
+    content: '\f06e';
+}
+.paylink:before {
+    content: '\f09d';
+}
+.donelink:before {
+    content: '\f00c';
+}
+.pluslink:before {
+    content: '\f067';
+}
+.minuslink:before {
+    content: '\f068';
+}
+.commentlink:before {
+    content: '\f0e5';
+}
+.operatorlink:before {
+    content: '\f2c0';
+}
+.queuelink:before {
+    content: '\f017';
+}
+
+.addlink, .change-link, .delete-link, .viewlink, .paylink, .donelink, .pluslink, .minuslink, .commentlink, .operatorlink, .queuelink {
+    &.empty {
+        line-height: 1.2;
+        &:before {
+            margin-right: 0;
+        }
+    }
+}

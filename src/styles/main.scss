@@ -1,0 +1,30 @@
+@import 'vendors';
+@import 'table';
+
+.modal-dialog {
+    max-width: 700px !important;
+}
+.btn:not(.loading) {
+    .spinner-border {
+        display: none;
+    }
+}
+.font-weight-500 {
+    font-weight: 500;
+}
+.line-height-12 {
+    line-height: 1.2;
+}
+.table-link {
+    display: inline-block;
+    max-width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.btn:not(.table-link) {
+    min-width: fit-content;
+}
+.strikethrough {
+    text-decoration: line-through;
+}

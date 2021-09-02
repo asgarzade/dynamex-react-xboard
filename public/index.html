@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/suit.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  </head>
+  <body class="suit_toggle_changelist_top_actions suit_form_submit_on_right suit_layout_horizontal dashboard" data-admin-utc-offset="14400">
+    <div id="container">
+      <!-- Header -->
+      <div id="header">
+        <div id="branding">
+
+          <h1 id="site-name">
+            <a href="#">
+              Cargo Lab
+              <span class="header-label">Admin</span></a>
+          </h1>
+
+        </div>
+
+        <div id="user-tools" class="suit-user-tools">
+
+          <span class="welcome">
+            Welcome,
+            <strong>admin@example.com</strong>.
+          </span>
+
+          <div class="user-links">
+
+            <a href="/" class="icon-link view-site-link" data-title="Saytı ziyarət et">Saytı ziyarət et</a>
+            <span class="separator">/</span>
+
+            <a href="#" class="icon-link change-password-link" data-title="Parolu dəyiş">Parolu dəyiş</a>
+            <span class="separator">/</span>
+
+            <a href="#" class="icon-link logout-link" data-title="Çıx">Çıx</a>
+
+          </div>
+        </div>
+
+        <div id="suit-nav">
+          <ul>
+
+            <li class="">
+              <a href="#">Ev</a>
+
+            </li>
+
+            <li class=" has-children">
+              <a href="#">İstifadəçi</a>
+
+              <ul class="sub-nav">
+
+                <li>
+                  <a href="#">Users</a>
+                </li>
+
+                <li>
+                  <a href="#">Profiles</a>
+                </li>
+
+                <li>
+                  <a href="#">Operator profiles</a>
+                </li>
+
+                <li>
+                  <a href="#">Qruplar</a>
+                </li>
+
+              </ul>
+
+            </li>
+
+            <li class=" has-children">
+              <a href="#">Finance</a>
+
+              <ul class="sub-nav">
+
+                <li>
+                  <a href="#">Transactions</a>
+                </li>
+
+              </ul>
+
+            </li>
+
+            <li class=" has-children">
+              <a href="#">Fulfillment</a>
+
+              <ul class="sub-nav">
+
+                <li>
+                  <a href="#">Orders</a>
+                </li>
+
+                <li>
+                  <a href="#">Declarations</a>
+                </li>
+
+              </ul>
+
+            </li>
+
+            <li class=" has-children">
+              <a href="#">Operation</a>
+              <ul class="sub-nav">
+                <li>
+                  <a href="#/pay-desk">Pay Desk</a>
+                </li>
+                <li>
+                  <a href="#/warehouse">Warehouse</a>
+                </li>
+                <li>
+                  <a href="#/assigned-orders">Assigned Orders</a>
+                </li>
+                <li>
+                  <a href="#/pickups">Pickups</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- END Header -->
+    </div>
+
+    <!-- Content -->
+    <div id="content" class="colM">
+
+      <div class="content-wrap">
+
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div id="root" class="w-100"></div>
+        <!--
+          This HTML file is a template.
+          If you open it directly in the browser, you will see an empty page.
+
+          You can add webfonts, meta tags, or analytics to this file.
+          The build step will place the bundled scripts into the <body> tag.
+
+          To begin the development, run `npm start` or `yarn start`.
+          To create a production bundle, use `npm run build` or `yarn build`.
+        -->
+      </div> <!-- Close content-wrap -->
+
+      <br class="clear">
+    </div>
+    <!-- END Content -->
+
+    <div id="footer">
+        <footer class="footer">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-12 col-sm-3 footer-links">
+                <a href="https://bitbucket.org/labclients/cargox-backend/src/master/" target="_blank">Support</a>
+              </div>
+              <div class="col-xs-12 col-sm-6 text-sm-center footer-copyright">
+                Copyright &copy;
+                <span class="hidden-md-down">2019-</span>2020 Labmin
+                <br>Developed by
+                <a href="http://labrin.tech" target="_blank">Labrin.tech</a>
+              </div>
+              <div class="col-xs-12 col-sm-3 text-sm-right footer-version">
+                Cargo Lab
+              </div>
+            </div>
+        </div>
+      </footer>
+    </div>
+    <!-- END Container -->
+  </body>
+</html>

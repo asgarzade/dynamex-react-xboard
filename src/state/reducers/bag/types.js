@@ -1,0 +1,2 @@
+export const FETCH_BAGS = 'FETCH_BAGS';
+export const FETCH_BAGS_SUCCESS = 'FETCH_BAGS_SUCCESS';
